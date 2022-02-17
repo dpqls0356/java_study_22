@@ -19,5 +19,6 @@ public class example3_8 {
             sum +=array[i];
         }
         System.out.println("평균은 "+(double)sum/array.length);
+        scanner.close();
     }
 }
